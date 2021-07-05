@@ -1,0 +1,216 @@
+@media screen and (max-width: 1200px) {
+    body{
+      max-width: 970px;
+      margin: 0 auto;
+      min-width: 970px;
+    } 
+
+
+    .header_navigation{
+        display: none;
+    }
+
+    .nav_button{
+        display: none;
+    }
+
+    .header_content{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .main_content{
+        max-width: 970px;
+        text-align: center;
+    }
+
+    .text_firstpage{
+        padding-left: 0;
+    }
+
+    .main_buttons{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .button_calculate{
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .button_application{
+        display: block;
+        margin: 0 auto;
+        width: 90%;   
+    }
+
+    .projects_navigation{
+        display: none;
+    }
+
+    .content_projects{
+        max-width: 970px;
+    }
+
+    .container_completed_projects{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .photo_projects{
+        display: none;
+    }
+
+    .completed_projects_left{
+        background-image: url(./images/photo_projects_mobile.png); /*это все вряд ли правильно, но я старалась, нет идей, как вставить стрелки в кружочках, которыми можно листать страницы*/
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: bottom;
+        margin-left: 0;
+    }
+
+    .completed_projects_left h2{
+        text-align: center;
+        margin-top: 35px;
+        position: relative;
+        bottom: 55px;
+    }
+
+    .completed_projects_left p{
+        text-align: center;
+        position: relative;
+        bottom: 55px;
+        margin-bottom: 50px;
+    }
+
+
+    .info_completed_projects{
+        position: relative; 
+        top: 220px;
+        left: 35px;
+    }
+
+    .info_completed_projects h3{
+        position: relative;
+        bottom: 40px;
+        left: 20px;
+    }
+
+    .arrow_navigation{
+        display: none;
+    }
+
+
+    .online_control{
+        margin-top: 300px;
+    }
+
+    .control{
+        background-color: black;
+    }
+
+    .control_content{
+        max-width: 970px;
+    }
+
+
+    .control_form{
+        color: #FFFFFF;
+        display: block; /*не получается выровнять элементы формы по центру*/
+        align-items: center;
+    }
+
+    .input_form{
+        color: #FFFFFF;
+        width: 95%;
+        background-color: black;
+        border-bottom: 1px solid #FFFFFF;
+        width: 90%;
+        margin-bottom: 60px;
+    }
+
+    .form_label{
+        color: rgba(255, 255, 255, 0.5);
+        margin-right: 65px;
+    }
+
+
+    .submit_button{
+        width: 90%;
+        margin-top: 50px;
+    }
+
+    .control_checkbox{
+        color: #FFFFFF;
+        font-size: 14px;
+        position: relative;
+        bottom: 150px;
+    }
+
+    .repair_content{
+        max-width: 970px;
+    }
+
+
+    .repair_content_column{
+        display: flex; /*возможно их нужно как-то растянуть, чтобы визуально выглядело лучше*/
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .measurer_request_content{
+        display: none;
+    }
+
+    .pig{
+        display: none;
+    }
+
+    .clients_content{
+        display: none;
+    }
+
+    .questions_content_block{
+        width: 100%;
+    }
+
+    .questions_form label{
+        margin-left: 30px; /*не знаю, как поднять label над input*/
+    }
+
+    .questions_form input{
+        margin-top: 25px;
+    }
+
+    .address{
+        background-color: black;
+        background-image: none;
+        margin-top: -100px;
+    }
+
+
+    .content_address h3{
+        position: relative;
+        top: 450px;
+   
+    }
+
+    .content_address a{
+        position: relative;
+        top: 450px;
+    }
+
+
+    .map{
+        width: 90%;
+        position: relative;
+        bottom: 110px;
+    }
+
+    footer{
+        display: none;
+    }
+}
